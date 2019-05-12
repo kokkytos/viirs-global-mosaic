@@ -1,0 +1,4 @@
+#ignore filetypes
+*.tif
+*.tgz
+*.gz
