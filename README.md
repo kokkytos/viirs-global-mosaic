@@ -53,7 +53,7 @@ Excludes the pixels that they have *DN<6* in 2013 DMSP/OLS data.
 
 
 ### Example
-Monthly VIIRS tiles are available for download in the files [2014.txt](2014.txt), [2015.txt](2015.txt), [2016.txt](2015.txt).
+Monthly VIIRS tiles are available for download in the files [2014.txt](2014/2014.txt), [2015/2015.txt](2015.txt), [2016/2016.txt](2015.txt).
 An example is given for 2014. To generate the mosaic for 2014 the following commands are required:
 
 * `downloadData.sh ./2014/2014.txt ./2014`
