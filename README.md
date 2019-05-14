@@ -40,11 +40,11 @@ To complete the process of creating the global mosaic, the following sscripts we
 
 * *[downloadData.sh](downloadData.sh)*: downloads the necessary tiles stored in tgz compressed format from the [NGDC Earth Observation Group (EOG)](https://ngdc.noaa.gov/eog/index.html). Files for download are provided through a file with a list of the URLs of `* .tgz` files.
 
-* *[extractData.sh](extract_data.sh)*: decompresses the files `.avg_rade9h.tif` from the compressed `*.tgz` files.
+* *[extractData.sh](extractData.sh)*: decompresses the files `.avg_rade9h.tif` from the compressed `*.tgz` files.
 
 * *[float2int.sh](float2int.sh)*: convert geotiffs to UInt16 data type.
 
-* *[maskData.sh](mask_data.sh)*: masks the VIIRS data based on 2013 DMSP/OLS data.
+* *[maskData.sh](maskData.sh)*: masks the VIIRS data based on 2013 DMSP/OLS data.
 Excludes the pixels that they have *DN<6* in 2013 DMSP/OLS data.
 
 * *[mosaic.sh](mosaic.sh)*: creates a global mosaic of the VIIRS individual tiles.
